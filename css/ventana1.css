@@ -1,0 +1,30 @@
+
+div.ventana1 {
+    margin: 0 0 30px 0;
+    padding: 80px 80px;
+    text-align: center;
+
+
+    border-radius: 5px;
+
+    box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+}
+
+div.ventana2 {
+    margin: 0 0 30px 0;
+    padding: 80px 80px;
+    background: #fff;
+    text-align: center;
+
+    float: right;
+
+
+
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+}

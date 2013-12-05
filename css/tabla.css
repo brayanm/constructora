@@ -1,0 +1,55 @@
+<style type="text/css">
+div.contiene_tabla, div.contiene_tabla2 { 
+height: 100px; 
+overflow: auto; 
+overflow-y: auto; 
+overflow-x: hidden; 
+width: 750px; 
+border-bottom: solid 1px #000; 
+border-right: solid 1px #000; 
+} 
+ 
+table { 
+background-color: #EFEFEF; 
+color: black; 
+table-layout: fixed; 
+width: 710px; 
+} 
+ 
+table.titulos { 
+width: 715px; 
+} 
+th.nose{
+	color: white;
+}
+ 
+th, td { 
+border: 1px solid black; 
+padding: 4px; 
+white-space: pre; /* CSS 2.0 */ 
+white-space: pre-wrap; /* CSS 2.1 */ 
+white-space: pre-line; /* CSS 3.0 */ 
+white-space: -pre-wrap; /* Opera 4-6 */ 
+white-space: -o-pre-wrap; /* Opera 7 */ 
+white-space: -moz-pre-wrap; /* Mozilla */ 
+white-space: -hp-pre-wrap; /* HP */ 
+word-wrap: break-word; /* IE 5+ */ 
+} 
+ 
+tr.headers { 
+background-color: #5ba4a4; 
+} 
+ 
+/* extendemosel ancho para .contiene_tabla2 
+para colocar el scroll por fuera */ 
+div.contiene_tabla2 { 
+width: 715px; 
+} 
+ 
+/* Fix para listas */ 
+div.contiene_tabla ul li, div.contiene_tabla2 ul li{ 
+list-style-type: square; 
+list-style-position: inside; 
+}
+
+</style>
